@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EducaMais</string>
+    <string name="NomeProjeto">Educa</string>
+
+
+    <!-- Tela de Inicial -->
+    <string name="Email">Email: </string>
+    <string name="Senha">Senha: </string>
+    <string name="MostrarSenha">Mostrar Senha</string>
+    <string name="Entrar">Entrar</string>
+    <string name="NãoPossuiConta">Ainda não possui conta ?</string>
+    <string name="RegistreSe">Resgistre - se</string>
+
+    <!-- TELA Cadastro -->
+    <string name="nome">Nome: </string>
+    <string name="CrieSuaConta">Crie sua conta !</string>
+    <string name="Cadastrar">Cadastrar</string>
+
+    <!-- Tela adicionar notas -->
+    <string name="explicação">Nosso app veio para solucionar os diários dos professores !!</string>
+    <string name="nomeAluno">Nome do aluno: </string>
+    <string name="turmaAluno">Turma: </string>
+    <string name="notaUm">1ª nota: </string>
+    <string name="notaDois">2ª nota: </string>
+    <string name="notaTres">3ª nota: </string>
+    <string name="notaQuatro">4ª nota: </string>
+    <string name="cadastrarNota">Cadastrar Nota !</string>
+
+</resources>

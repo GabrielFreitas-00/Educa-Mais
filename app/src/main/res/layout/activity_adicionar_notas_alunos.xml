@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.AdicionarNotasAlunos"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+
+
+        <EditText
+            android:id="@+id/nomeAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_editext"
+            android:ems="10"
+            android:hint="@string/nomeAluno"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/turmaAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_editext"
+            android:ems="10"
+            android:hint="@string/turmaAluno"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/notaUm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_editext"
+            android:ems="10"
+            android:hint="@string/notaUm"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/notaDois"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_editext"
+            android:ems="10"
+            android:hint="@string/notaDois"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/notaTres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_editext"
+            android:ems="10"
+            android:hint="@string/notaTres"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/notaQuatro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_editext"
+            android:ems="10"
+            android:hint="@string/notaQuatro"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btnCadastrarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/cadastrarNota"
+        android:textAlignment="center"
+        android:background="@drawable/custom_btn"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+

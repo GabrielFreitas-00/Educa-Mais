@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ExibirMedia"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#d6deb9"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/exibirTurma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Turma"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#d6deb9"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/exibirNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="nomeAluno"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#d6deb9"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turma: "
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

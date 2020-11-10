@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "204943584514",
+    "firebase_url": "https://educamais-5a657.firebaseio.com",
+    "project_id": "educamais-5a657",
+    "storage_bucket": "educamais-5a657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204943584514:android:a94e971bb4a7499362a61b",
+        "android_client_info": {
+          "package_name": "com.example.educamais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204943584514-pkbrpvkbm966778v6utulhurfh54tcsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.educamais",
+            "certificate_hash": "135f0edf421dbdb630101eac90babf8977d400be"
+          }
+        },
+        {
+          "client_id": "204943584514-7qpihm3lba3f1vv6pbh0jk10dfjmgl6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQlnidxJ1oML5oT01RfiNMTp3pAqOA7uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204943584514-7qpihm3lba3f1vv6pbh0jk10dfjmgl6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
